@@ -95,7 +95,7 @@ function animatePress(currentColor) {
   $("#" + currentColor).addClass("pressed");
   setTimeout(function() {
     $("#" + currentColor).removeClass("pressed");
-  }, 1);
+  }, 100);
 }
 
 /*Function to restart game button press*/
