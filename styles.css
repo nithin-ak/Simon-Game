@@ -6,6 +6,7 @@
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
+  padding-top: 5rem;
   margin: 5%;
   color: #FEF2BF;
 }
@@ -36,10 +37,8 @@
 .ss {
   font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
-  align-items: center;
-  margin: 5%;
+  text-align: center;
   margin: 10px;
-  display: inline-block;
   height: 70px;
   width: 200px;
   border: 5px solid black;
