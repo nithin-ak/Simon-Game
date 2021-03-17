@@ -36,6 +36,7 @@
 .ss {
   font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
+  align-items: center;
   margin: 5%;
   margin: 10px;
   display: inline-block;
