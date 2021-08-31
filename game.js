@@ -15,9 +15,7 @@ $(".ss").click(function() {
     $("h1").text("Level " + level);
     nextSequence();
     started = true
-    $(".ss").hide();
-    $("h3").hide();
-    $("h4").hide();
+    $(".ss, h3, h4, footer").hide();
   }
 });
 
@@ -62,9 +60,7 @@ function checkAnswer(currentLevel) {
     $("h3").text("Your Score = " + yourScore);
     $("h4").text("Highest Score = " + highestScore);
     startOver();
-    $(".ss").show();
-    $("h3").show();
-    $("h4").show();
+    $(".ss, h3, h4").show();
   }
 }
 
